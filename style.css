@@ -1,0 +1,39 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    color:#fff;
+}
+#main{
+    height:100%;
+    width:100%;
+    background-color: black;
+    position: relative;
+}
+.elem{
+    height:120px;
+    width:100%;
+    /*background-color: blueviolet;*/
+    border-bottom: 2px solid white;
+    align-items: center;
+    display: flex;
+    justify-content: flex-start;
+    position: relative;
+    z-index: 9;
+
+}
+.elem h1{
+    font-size: 6vw;
+    position: relative;
+    z-index: 9;
+}
+.elem img{
+    height:120px;
+    width:120px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+    opacity: 0;
+
+}
